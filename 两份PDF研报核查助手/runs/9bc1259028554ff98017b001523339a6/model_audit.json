@@ -1,0 +1,338 @@
+[
+  {
+    "table": "page2_ocrtable0",
+    "batch": 1,
+    "requested_rows": 6,
+    "metadata": {
+      "page": 2,
+      "table_id": "page2_ocrtable0",
+      "clip": [
+        193.84091186523438,
+        264.7691345214844,
+        524.0894775390625,
+        409.59979248046875
+      ],
+      "image_sha256": "15ee346d4e4753922e16359677b95b8a1fdab6bbd5e96d4826329f7c4041429a",
+      "prompt_sha256": "a4db0141563916ea0dfa16512018703711cd7e74d6d513324497bdcf42fedd9f"
+    },
+    "raw_response": "{\n  \"rows\": [\n    {\n      \"key\": \"1\",\n      \"label\": \"营业总收入（百万元）\",\n      \"unit\": \"百万元\",\n      \"statement\": \"income_statement\",\n      \"values\": {\n        \"2023A\": 15695,\n        \"2024A\": 16831\n      }\n    },\n    {\n      \"key\": \"2\",\n      \"label\": \"增长率YoY%\",\n      \"unit\": \"%\",\n      \"statement\": \"income_statement\",\n      \"values\": {\n        \"2023A\": 11.5,\n        \"2024A\": 7.2\n      }\n    },\n    {\n      \"key\": \"3\",\n      \"label\": \"归属母公司净利润\\n（百万元）\",\n      \"unit\": \"百万元\",\n      \"statement\": \"income_statement\",\n      \"values\": {\n        \"2023A\": 3870,\n        \"2024A\": 4272\n      }\n    },\n    {\n      \"key\": \"4\",\n      \"label\": \"增长率YoY%\",\n      \"unit\": \"%\",\n      \"statement\": \"income_statement\",\n      \"values\": {\n        \"2023A\": 21.4,\n        \"2024A\": 10.4\n      }\n    },\n    {\n      \"key\": \"5\",\n      \"label\": \"毛利率%\",\n      \"unit\": \"%\",\n      \"statement\": \"metrics\",\n      \"values\": {\n        \"2023A\": 43.2,\n        \"2024A\": 43.2\n      }\n    },\n    {\n      \"key\": \"7\",\n      \"label\": \"EPS（摊薄（元）\",\n      \"unit\": \"元\",\n      \"statement\": \"metrics\",\n      \"values\": {\n        \"2023A\": 2.14,\n        \"2024A\": 2.36\n      }\n    }\n  ]\n}",
+    "response_model": "qwen3-vl-plus",
+    "request_id": "chatcmpl-e1547fdc-da15-9727-87b6-b2be0d44d019",
+    "usage": {
+      "completion_tokens": 438,
+      "prompt_tokens": 806,
+      "total_tokens": 1244,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": null,
+        "rejected_prediction_tokens": null,
+        "text_tokens": 438
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": null,
+        "cache_write_tokens": null,
+        "cached_tokens": 0,
+        "image_tokens": 436,
+        "text_tokens": 370
+      }
+    },
+    "status": "completed",
+    "verified_cells": 12,
+    "seconds": 16.5
+  },
+  {
+    "table": "page2_ocrtable0",
+    "batch": 2,
+    "requested_rows": 2,
+    "metadata": {
+      "page": 2,
+      "table_id": "page2_ocrtable0",
+      "clip": [
+        193.84091186523438,
+        264.7691345214844,
+        524.0894775390625,
+        409.59979248046875
+      ],
+      "image_sha256": "15ee346d4e4753922e16359677b95b8a1fdab6bbd5e96d4826329f7c4041429a",
+      "prompt_sha256": "152318cd9af12faf050b644aa556c264ca6e3e59a132b46b1486ab9d0de8abcd"
+    },
+    "raw_response": "{\n  \"rows\": [\n    {\n      \"key\": \"8\",\n      \"label\": \"市盈率P/E(倍)\",\n      \"unit\": \"倍\",\n      \"statement\": \"metrics\",\n      \"values\": {\n        \"2023A\": 22.31,\n        \"2024A\": 20.21\n      }\n    },\n    {\n      \"key\": \"9\",\n      \"label\": \"市净率P/B(倍)\",\n      \"unit\": \"倍\",\n      \"statement\": \"metrics\",\n      \"values\": {\n        \"2023A\": 5.98,\n        \"2024A\": 5.44\n      }\n    }\n  ]\n}",
+    "response_model": "qwen3-vl-plus",
+    "request_id": "chatcmpl-76d971ca-f8d9-924d-a820-770b9cdea460",
+    "usage": {
+      "completion_tokens": 158,
+      "prompt_tokens": 677,
+      "total_tokens": 835,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": null,
+        "rejected_prediction_tokens": null,
+        "text_tokens": 158
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": null,
+        "cache_write_tokens": null,
+        "cached_tokens": 0,
+        "image_tokens": 436,
+        "text_tokens": 241
+      }
+    },
+    "status": "completed",
+    "verified_cells": 4,
+    "seconds": 9.13
+  },
+  {
+    "table": "page3_ocrtable0",
+    "batch": 3,
+    "requested_rows": 4,
+    "metadata": {
+      "page": 3,
+      "table_id": "page3_ocrtable0",
+      "clip": [
+        49.3167610168457,
+        62.757057189941406,
+        298.2176818847656,
+        430.819580078125
+      ],
+      "image_sha256": "5fd5e04a9bbcbd0772bcc7fa4394e906531422cd78c75f78aa2829a8742f0aaf",
+      "prompt_sha256": "15a0b886b28119cd9a0ea6e226987c3fec638372119376b9ee2cf4421ee355ed"
+    },
+    "raw_response": "{\n  \"rows\": [\n    {\n      \"key\": \"4\",\n      \"label\": \"应收账款\",\n      \"unit\": \"百万元\",\n      \"statement\": \"balance_sheet\",\n      \"values\": {\n        \"2023A\": 265,\n        \"2024A\": 300\n      }\n    },\n    {\n      \"key\": \"6\",\n      \"label\": \"存货\",\n      \"unit\": \"百万元\",\n      \"statement\": \"balance_sheet\",\n      \"values\": {\n        \"2023A\": 1421,\n        \"2024A\": 1574\n      }\n    },\n    {\n      \"key\": \"13\",\n      \"label\": \"资产总计\",\n      \"unit\": \"百万元\",\n      \"statement\": \"balance_sheet\",\n      \"values\": {\n        \"2023A\": 19762,\n        \"2024A\": 20494\n      }\n    },\n    {\n      \"key\": \"24\",\n      \"label\": \"归属母公司股东权益\",\n      \"unit\": \"百万元\",\n      \"statement\": \"balance_sheet\",\n      \"values\": {\n        \"2023A\": 14446,\n        \"2024A\": 15866\n      }\n    }\n  ]\n}",
+    "response_model": "qwen3-vl-plus",
+    "request_id": "chatcmpl-cd957274-9372-9716-b18e-eebba64ae2fe",
+    "usage": {
+      "completion_tokens": 294,
+      "prompt_tokens": 1104,
+      "total_tokens": 1398,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": null,
+        "rejected_prediction_tokens": null,
+        "text_tokens": 294
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": null,
+        "cache_write_tokens": null,
+        "cached_tokens": 0,
+        "image_tokens": 807,
+        "text_tokens": 297
+      }
+    },
+    "status": "completed",
+    "verified_cells": 8,
+    "seconds": 12.46
+  },
+  {
+    "table": "page3_ocrtable1",
+    "batch": 4,
+    "requested_rows": 6,
+    "metadata": {
+      "page": 3,
+      "table_id": "page3_ocrtable1",
+      "clip": [
+        297.374267578125,
+        63.60584259033203,
+        531.4847412109375,
+        342.1209716796875
+      ],
+      "image_sha256": "316f3544de9ba1f1f172f1a41ea518f8855eb0946a589fe7673f4dd11bcfe681",
+      "prompt_sha256": "47d3bff1d9f4cb176ffa29607fa6b64d425374708580fbed3ddd52f2cb9f18b2"
+    },
+    "raw_response": "{\n  \"rows\": [\n    {\n      \"key\": \"1\",\n      \"label\": \"营业总收入\",\n      \"unit\": \"百万元\",\n      \"statement\": \"income_statement\",\n      \"values\": {\n        \"2023A\": 15695,\n        \"2024A\": 16831\n      }\n    },\n    {\n      \"key\": \"2\",\n      \"label\": \"营业成本\",\n      \"unit\": \"百万元\",\n      \"statement\": \"income_statement\",\n      \"values\": {\n        \"2023A\": 8914,\n        \"2024A\": 9552\n      }\n    },\n    {\n      \"key\": \"4\",\n      \"label\": \"销售费用\",\n      \"unit\": \"百万元\",\n      \"statement\": \"income_statement\",\n      \"values\": {\n        \"2023A\": 1070,\n        \"2024A\": 1369\n      }\n    },\n    {\n      \"key\": \"5\",\n      \"label\": \"管理费用\",\n      \"unit\": \"百万元\",\n      \"statement\": \"income_statement\",\n      \"values\": {\n        \"2023A\": 626,\n        \"2024A\": 732\n      }\n    },\n    {\n      \"key\": \"6\",\n      \"label\": \"研发费用\",\n      \"unit\": \"百万元\",\n      \"statement\": \"income_statement\",\n      \"values\": {\n        \"2023A\": 673,\n        \"2024A\": 746\n      }\n    },\n    {\n      \"key\": \"7\",\n      \"label\": \"财务费用\",\n      \"unit\": \"百万元\",\n      \"statement\": \"income_statement\",\n      \"values\": {\n        \"2023A\": -109,\n        \"2024A\": -118\n      }\n    }\n  ]\n}",
+    "response_model": "qwen3-vl-plus",
+    "request_id": "chatcmpl-3140babe-d7ef-9b4e-82ae-3761fae0778a",
+    "usage": {
+      "completion_tokens": 426,
+      "prompt_tokens": 931,
+      "total_tokens": 1357,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": null,
+        "rejected_prediction_tokens": null,
+        "text_tokens": 426
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": null,
+        "cache_write_tokens": null,
+        "cached_tokens": 0,
+        "image_tokens": 574,
+        "text_tokens": 357
+      }
+    },
+    "status": "completed",
+    "verified_cells": 11,
+    "seconds": 13.13
+  },
+  {
+    "table": "page3_ocrtable1",
+    "batch": 5,
+    "requested_rows": 3,
+    "metadata": {
+      "page": 3,
+      "table_id": "page3_ocrtable1",
+      "clip": [
+        297.374267578125,
+        63.60584259033203,
+        531.4847412109375,
+        342.1209716796875
+      ],
+      "image_sha256": "316f3544de9ba1f1f172f1a41ea518f8855eb0946a589fe7673f4dd11bcfe681",
+      "prompt_sha256": "05225ae1ab0f73e45908d465be9925f38733dd0bedb5525923a390624ed49a9c"
+    },
+    "raw_response": "{\n  \"rows\": [\n    {\n      \"key\": \"15\",\n      \"label\": \"净利润\",\n      \"unit\": \"百万元\",\n      \"statement\": \"income_statement\",\n      \"values\": {\n        \"2023A\": 3864,\n        \"2024A\": 4269\n      }\n    },\n    {\n      \"key\": \"17\",\n      \"label\": \"归属母公司\\n净利润\",\n      \"unit\": \"百万元\",\n      \"statement\": \"income_statement\",\n      \"values\": {\n        \"2023A\": 3870,\n        \"2024A\": 4272\n      }\n    },\n    {\n      \"key\": \"19\",\n      \"label\": \"EPS（当年（元）\",\n      \"unit\": \"元\",\n      \"statement\": \"metrics\",\n      \"values\": {\n        \"2023A\": 3.01,\n        \"2024A\": 3.31\n      }\n    }\n  ]\n}",
+    "response_model": "qwen3-vl-plus",
+    "request_id": "chatcmpl-fa3dea9b-6a44-95aa-97f8-e4269a300ed0",
+    "usage": {
+      "completion_tokens": 226,
+      "prompt_tokens": 845,
+      "total_tokens": 1071,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": null,
+        "rejected_prediction_tokens": null,
+        "text_tokens": 226
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": null,
+        "cache_write_tokens": null,
+        "cached_tokens": 0,
+        "image_tokens": 574,
+        "text_tokens": 271
+      }
+    },
+    "status": "completed",
+    "verified_cells": 6,
+    "seconds": 12.81
+  },
+  {
+    "table": "page3_ocrtable2",
+    "batch": 6,
+    "requested_rows": 3,
+    "metadata": {
+      "page": 3,
+      "table_id": "page3_ocrtable2",
+      "clip": [
+        297.374267578125,
+        343.2822570800781,
+        534.9710083007812,
+        652.7781982421875
+      ],
+      "image_sha256": "6deb00b99bf8d8e75eb8de8ec2c208ac0a8d59c76c04980afdd60cc02dc026a8",
+      "prompt_sha256": "371e4e08f7d4f86d882f44e2a9043fc42ef2582453bfe555a3870d97eaa4dbd9"
+    },
+    "raw_response": "{\n  \"rows\": [\n    {\n      \"key\": \"1\",\n      \"label\": \"经营活动现金流\",\n      \"unit\": \"百万元\",\n      \"statement\": \"cash_flow\",\n      \"values\": {\n        \"2023A\": 4827,\n        \"2024A\": 3730\n      }\n    },\n    {\n      \"key\": \"2\",\n      \"label\": \"净利润\",\n      \"unit\": \"百万元\",\n      \"statement\": \"income_statement\",\n      \"values\": {\n        \"2023A\": 3864,\n        \"2024A\": 4269\n      }\n    },\n    {\n      \"key\": \"4\",\n      \"label\": \"财务费用\",\n      \"unit\": \"百万元\",\n      \"statement\": \"income_statement\",\n      \"values\": {\n        \"2023A\": -64,\n        \"2024A\": -96\n      }\n    }\n  ]\n}",
+    "response_model": "qwen3-vl-plus",
+    "request_id": "chatcmpl-1b7a842c-2477-933b-8b13-d3f122f54940",
+    "usage": {
+      "completion_tokens": 215,
+      "prompt_tokens": 903,
+      "total_tokens": 1118,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": null,
+        "rejected_prediction_tokens": null,
+        "text_tokens": 215
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": null,
+        "cache_write_tokens": null,
+        "cached_tokens": 0,
+        "image_tokens": 640,
+        "text_tokens": 263
+      }
+    },
+    "status": "completed",
+    "verified_cells": 6,
+    "seconds": 8.27
+  },
+  {
+    "table": "page3_ocrtable3",
+    "batch": 7,
+    "requested_rows": 6,
+    "metadata": {
+      "page": 3,
+      "table_id": "page3_ocrtable3",
+      "clip": [
+        47.62641906738281,
+        444.288330078125,
+        298.428955078125,
+        652.7781982421875
+      ],
+      "image_sha256": "f6a4f2a87bd91caa6e194031b2b15ec432358d7ec2e01799f79993d759040d88",
+      "prompt_sha256": "80a0206f7a1984322ef26e9b300b90793b248a683a6b2c38511efc236691bc66"
+    },
+    "raw_response": "{\n  \"rows\": [\n    {\n      \"key\": \"1\",\n      \"label\": \"营业总收入\",\n      \"unit\": \"百万元\",\n      \"statement\": \"income_statement\",\n      \"values\": {\n        \"2023A\": 15695,\n        \"2024A\": 16831\n      }\n    },\n    {\n      \"key\": \"2\",\n      \"label\": \"同比（%）\",\n      \"unit\": \"%\",\n      \"statement\": \"income_statement\",\n      \"values\": {\n        \"2023A\": 11.5,\n        \"2024A\": 7.2\n      }\n    },\n    {\n      \"key\": \"3\",\n      \"label\": \"归属母公司净利润\",\n      \"unit\": \"百万元\",\n      \"statement\": \"income_statement\",\n      \"values\": {\n        \"2023A\": 3870,\n        \"2024A\": 4272\n      }\n    },\n    {\n      \"key\": \"4\",\n      \"label\": \"同比（%)\",\n      \"unit\": \"%\",\n      \"statement\": \"income_statement\",\n      \"values\": {\n        \"2023A\": 21.4,\n        \"2024A\": 10.4\n      }\n    },\n    {\n      \"key\": \"5\",\n      \"label\": \"毛利率（%）\",\n      \"unit\": \"%\",\n      \"statement\": \"metrics\",\n      \"values\": {\n        \"2023A\": 43.2,\n        \"2024A\": 43.2\n      }\n    },\n    {\n      \"key\": \"7\",\n      \"label\": \"EPS（摊薄）(元)\",\n      \"unit\": \"元\",\n      \"statement\": \"metrics\",\n      \"values\": {\n        \"2023A\": 2.14,\n        \"2024A\": 2.36\n      }\n    }\n  ]\n}",
+    "response_model": "qwen3-vl-plus",
+    "request_id": "chatcmpl-8621f323-2ef1-91d2-8cfd-9cc013e047a0",
+    "usage": {
+      "completion_tokens": 433,
+      "prompt_tokens": 853,
+      "total_tokens": 1286,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": null,
+        "rejected_prediction_tokens": null,
+        "text_tokens": 433
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": null,
+        "cache_write_tokens": null,
+        "cached_tokens": 0,
+        "image_tokens": 482,
+        "text_tokens": 371
+      }
+    },
+    "status": "completed",
+    "verified_cells": 12,
+    "seconds": 19.45
+  },
+  {
+    "table": "page3_ocrtable3",
+    "batch": 8,
+    "requested_rows": 2,
+    "metadata": {
+      "page": 3,
+      "table_id": "page3_ocrtable3",
+      "clip": [
+        47.62641906738281,
+        444.288330078125,
+        298.428955078125,
+        652.7781982421875
+      ],
+      "image_sha256": "f6a4f2a87bd91caa6e194031b2b15ec432358d7ec2e01799f79993d759040d88",
+      "prompt_sha256": "79b50fbcbb20fd1152842b2a7f12a7f02f5c2a3b4911f2784753e83dc6e89b73"
+    },
+    "raw_response": "{\n  \"rows\": [\n    {\n      \"key\": \"8\",\n      \"label\": \"P/E\",\n      \"unit\": \"倍\",\n      \"statement\": \"metrics\",\n      \"values\": {\n        \"2023A\": 22.31,\n        \"2024A\": 20.21\n      }\n    },\n    {\n      \"key\": \"9\",\n      \"label\": \"P/B\",\n      \"unit\": \"倍\",\n      \"statement\": \"metrics\",\n      \"values\": {\n        \"2023A\": 5.98,\n        \"2024A\": 5.44\n      }\n    }\n  ]\n}",
+    "response_model": "qwen3-vl-plus",
+    "request_id": "chatcmpl-d6cf8125-8880-98bb-967c-8a3b53e3922a",
+    "usage": {
+      "completion_tokens": 148,
+      "prompt_tokens": 711,
+      "total_tokens": 859,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": null,
+        "rejected_prediction_tokens": null,
+        "text_tokens": 148
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": null,
+        "cache_write_tokens": null,
+        "cached_tokens": 0,
+        "image_tokens": 482,
+        "text_tokens": 229
+      }
+    },
+    "status": "completed",
+    "verified_cells": 4,
+    "seconds": 6.54
+  }
+]

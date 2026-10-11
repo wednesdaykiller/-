@@ -1,0 +1,15 @@
+{
+  "unit_tests": 24,
+  "real_pdf_run": "passed_without_cache",
+  "seconds": 24.92,
+  "annual_pages": 237,
+  "research_pages": 5,
+  "research_cells": 160,
+  "existing_human_decisions_regression_in_memory": {
+    "相符": 26,
+    "预测值": 48,
+    "待确认": 6
+  },
+  "browser_test": "not_run_socket_permission_denied",
+  "live_model_test": "not_run_no_credentials"
+}
